@@ -1,6 +1,3 @@
-# Sistem-Kendali
-
-
 
     %%fungsi untuk memasukan koefisien dan fungsi
     K = input('masukan nilai koefisien K = ');
@@ -12,21 +9,16 @@
     end
     polinomial = x
 
-fungsi digunakan untuk User dapat memasukan nilai koefisien K,orde ,dan nilai tiap orde pada fungsi
-
     %% menampilkan fungsi polynomial
     poly2sym(polinomial)
-
-fungsi untuk menapilkan fungsi polynomial
-
+    
     %% membuat Routh tabel
     orde = length(polinomial);
     kolom = floor((orde+1)/2);
     Tabel = zeros(orde, kolom);
     stabil = false;
     i = 1;
-
-
+    
     for row = 1:orde
         for col = 1:kolom
             if row < 3
@@ -48,9 +40,13 @@ fungsi untuk menapilkan fungsi polynomial
         end
     end
     
-fungsi untuk menyusun routh table sehingga dapat ukur kestabilan dan dapat ditampikan
-
-
+    %% mengecek stabilitas berdasarkan routh table
+    if stabil
+        fprintf('Sistem Tidak Stabil.\n\n');
+    else
+        fprintf('Sistem stabil.\n\n');
+    end
+    
     %% tampilkan Routh tabel
     spaces = '           ';
     m = 12;
@@ -89,5 +85,3 @@ fungsi untuk menyusun routh table sehingga dapat ukur kestabilan dan dapat ditam
             decrease = 1;
         end
     end
-
-fungsi untuk menampikan routh table
