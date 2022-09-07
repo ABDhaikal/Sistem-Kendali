@@ -1,5 +1,9 @@
 # Sistem-Kendali
 
+
+    link
+    https://github.com/ABDhaikal/Sistem-Kendali
+
     K = input('masukan nilai koefisien K = ');
     p=input('masukan jumlah orde '); %p  gives highes power
     syms e;
