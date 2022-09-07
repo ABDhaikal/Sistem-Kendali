@@ -1,8 +1,5 @@
 # Sistem-Kendali
 
-
-
-    %%fungsi untuk memasukan koefisien dan fungsi
     K = input('masukan nilai koefisien K = ');
     p=input('masukan jumlah orde '); %p  gives highes power
     syms e;
@@ -14,12 +11,10 @@
 
 fungsi digunakan untuk User dapat memasukan nilai koefisien K,orde ,dan nilai tiap orde pada fungsi
 
-    %% menampilkan fungsi polynomial
     poly2sym(polinomial)
 
 fungsi untuk menapilkan fungsi polynomial
 
-    %% membuat Routh tabel
     orde = length(polinomial);
     kolom = floor((orde+1)/2);
     Tabel = zeros(orde, kolom);
@@ -50,8 +45,6 @@ fungsi untuk menapilkan fungsi polynomial
     
 fungsi untuk menyusun routh table sehingga dapat ukur kestabilan dan dapat ditampikan
 
-
-    %% tampilkan Routh tabel
     spaces = '           ';
     m = 12;
     if mod(orde ,2) == 0
