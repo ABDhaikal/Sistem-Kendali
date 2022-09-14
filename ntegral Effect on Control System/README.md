@@ -1,4 +1,6 @@
-
+https://github.com/ABDhaikal/Sistem-Kendali/tree/main/ntegral%20Effect%20on%20Control%20System
+   
+   
     %% declaration of system variable
     s = tf('s')
     T = 1
