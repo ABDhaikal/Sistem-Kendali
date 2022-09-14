@@ -19,8 +19,8 @@ complete = feedback(sys*sys_c,1)
 
 figure
 subplot(311), step(complete*s);   % Impulse reponse
-stepinfo(Ct*s)
+stepinfo(complete*s)
 subplot(312), step(complete);      % Step Response
-stepinfo(Ct)
+stepinfo(complete)
 subplot(313), step(complete / s);  % Ramp response 
-stepinfo(Ct/s)
+stepinfo(complete/s)

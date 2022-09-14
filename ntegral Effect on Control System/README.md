@@ -32,3 +32,22 @@ sehingga system control atau gain adalah : ((Kp*s)+Ki)/s
     stepinfo(complete)
     subplot(313), step(complete / s);  % Ramp response 
     stepinfo(complete/s)
+
+
+untuk hasil respon menggunakan impulse step dan ramp secara berurutan dengan variasi KI (1,3,5,7,9) sebagai berikut
+
+
+KI= 1
+![alt text](ki1.jpg)
+
+KI= 3
+![alt text](ki3.jpg)
+
+KI= 5
+![alt text](ki5.jpg)
+
+KI= 7
+![alt text](ki7.jpg)
+
+KI= 9
+![alt text](ki9.jpg)
