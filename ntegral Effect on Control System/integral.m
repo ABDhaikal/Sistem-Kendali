@@ -5,6 +5,7 @@ T = 1
 Kp = 1;
 Ti = 1/5;
 Ki = Kp/Ti;
+Ki = 3 %manual input gain integral
 num = 1;
 den = [T T/16 1];
 sys = tf(num,den);
