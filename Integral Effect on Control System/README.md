@@ -1,4 +1,4 @@
-https://github.com/ABDhaikal/Sistem-Kendali/tree/main/ntegral%20Effect%20on%20Control%20System
+https://github.com/ABDhaikal/Sistem-Kendali/tree/main/Integral%20Effect%20on%20Control%20System
    
    
     %% declaration of system variable
