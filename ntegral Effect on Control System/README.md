@@ -38,16 +38,21 @@ untuk hasil respon menggunakan impulse step dan ramp secara berurutan dengan var
 
 
 KI= 1
+
 ![alt text](ki1.jpg)
 
 KI= 3
+
 ![alt text](ki3.jpg)
 
 KI= 5
+
 ![alt text](ki5.jpg)
 
 KI= 7
+
 ![alt text](ki7.jpg)
 
 KI= 9
+
 ![alt text](ki9.jpg)
