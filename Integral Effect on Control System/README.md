@@ -58,3 +58,8 @@ KI= 7
 KI= 9
 
 ![alt text](ki9.jpg)
+
+
+dengan hasil analisis
+
+![alt text](analys.jpg)
