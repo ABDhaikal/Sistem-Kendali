@@ -16,7 +16,7 @@ variable variable dalam sistem kendali terdiri atas T,Kp,Ki,s merupakan konstant
 
 berdasarkan fungsi PID diatas dapat dinyatakan bahwa KI = KP/Ti 
 
-![alt text](integral proportional plant.jpeg)
+![alt text](image1.jpeg)
 sys_c = tf([Kp Ki],[1 0])
 
 
