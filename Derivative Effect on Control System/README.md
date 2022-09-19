@@ -66,23 +66,4 @@ OUTPUT :
 
 
 ![alt text](/Derivative%20Effect%20on%20Control%20System/grph.jpg)
-
-... |  step  |||  step  ||| step  || asd
-... | Risetime | SettlingTime | Overshoot | Risetime | SettlingTime | Overshoot | Risetime | SettlingTime | Overshoot
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- 
-kd1	   | 0.4404	| 72.351  |	640.571	 | 10.096 |	74.747	|   Inf |  NaN	 |  NaN	| NaN 
-kd3	   | 0.1777	| 54.078  |	773.628	 | 0.6153 |	33.919	|   Inf	|  NaN	 |  NaN	| NaN 
-kd5	   | 0.1083	| 96.269  |	856.019	 | 0.4056 | 23.497	|   Inf	|  NaN	 |  NaN	| NaN 
-kd7	   | 0.0778	| 136.127 |	899.807	 | 0.2997 | 0.4773	|   Inf	|  NaN	 |  NaN	| NaN 
-kd9	   | 0.0607	| 175.592 |	925.571	 | 0.2368 | 0.3902	|   Inf	|  NaN	 |  NaN	| NaN 
-
- |          Grouping             ||         Grouping 2         ||  Not Grouped    |
-| First Header  | Second Header | Third Header   | Forth Header | Fifth Header | Sixth Header    |
-| ------------- | :-----------: | -------------: | :----------: | :----------: | --------------- |
-| Tall Cell     |          *Long Cell*          ||         *Long Long Cell*                    |||
-| ^^            |   **Bold**    | 1. first item  | *Italic*     | 3. third item | + first point  |\
-| ^^            |               | 1. second item |              | 1. forth item | + second point |
-
-| New section   |     More      |         Data   | ... - -- --- |||
-| And more      | With an escaped \|          || "Try 'quotes' in quotes "         |||
-[Compicated table]
+![alt text](/Derivative%20Effect%20on%20Control%20System/tabl.jpg)
