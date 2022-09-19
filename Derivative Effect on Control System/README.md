@@ -14,4 +14,4 @@ pada kasus digunakan 2 jenis kendali yang akan digunakan yaitu proporsional dan 
 ![alt text](/Derivative%20Effect%20on%20Control%20System/kd.jpg)
 
 sehingga fungsi system control yang akan digunakan menjadi seperti berikut
-        sys_c = tf([Kd Kp],[1])
+     sys_c = tf([Kd Kp],[1])
