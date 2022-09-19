@@ -61,3 +61,16 @@ dengan menggunakan beberapa variasi konstanta derevatif yaitu 1 3 5 7 9 diharapk
     legend('step kd(7)','impulse kd(7)')
     subplot(236), step(complete/s,complete1/s,complete2/s,complete3/s,complete4/s,t); 
     legend('ramp kd(1)','ramp kd(3)','ramp kd(5)','ramp kd(7)','ramp kd(9)')
+
+OUTPUT :
+
+
+![alt text](/Derivative%20Effect%20on%20Control%20System/grph.jpg)
+
+	step			impulse			ramp		
+	Risetime	SettlingTime 	Overshoot	Risetime	SettlingTime 	Overshoot	Risetime	SettlingTime 	Overshoot
+kd1	    0.4404	72.351	640.571	10.096	74.747	   Inf	   NaN	   NaN	   NaN
+kd3	    0.1777	54.078	773.628	    0.6153	33.919	   Inf	   NaN	   NaN	   NaN
+kd5	    0.1083	96.269	856.019	    0.4056	23.497	   Inf	   NaN	   NaN	   NaN
+kd7	    0.0778	136.127	899.807	    0.2997	    0.4773	   Inf	   NaN	   NaN	   NaN
+kd9	    0.0607	175.592	925.571	    0.2368	    0.3902	   Inf	   NaN	   NaN	   NaN
