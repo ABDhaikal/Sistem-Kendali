@@ -76,7 +76,13 @@ kd5	   | 0.1083	| 96.269  |	856.019	 | 0.4056 | 23.497	|   Inf	|  NaN	 |  NaN	| 
 kd7	   | 0.0778	| 136.127 |	899.807	 | 0.2997 | 0.4773	|   Inf	|  NaN	 |  NaN	| NaN 
 kd9	   | 0.0607	| 175.592 |	925.571	 | 0.2368 | 0.3902	|   Inf	|  NaN	 |  NaN	| NaN 
 
+ |          Grouping             ||         Grouping 2         ||  Not Grouped    |
+| First Header  | Second Header | Third Header   | Forth Header | Fifth Header | Sixth Header    |
+| ------------- | :-----------: | -------------: | :----------: | :----------: | --------------- |
+| Tall Cell     |          *Long Cell*          ||         *Long Long Cell*                    |||
+| ^^            |   **Bold**    | 1. first item  | *Italic*     | 3. third item | + first point  |\
+| ^^            |               | 1. second item |              | 1. forth item | + second point |
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- 
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+| New section   |     More      |         Data   | ... - -- --- |||
+| And more      | With an escaped \|          || "Try 'quotes' in quotes "         |||
+[Compicated table]
