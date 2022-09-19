@@ -16,3 +16,14 @@ pada kasus digunakan 2 jenis kendali yang akan digunakan yaitu proporsional dan 
 sehingga fungsi system control yang akan digunakan menjadi seperti berikut
 
     sys_c = tf([Kd Kp],[1])
+
+pada pengujian kali ini fungsi transfer yang akan digunakan sebagai berikut 
+
+![alt text](/Derivative%20Effect%20on%20Control%20System/fs.jpg)
+
+sehingga 
+
+    num = 1;
+    den = [T T/16 1];
+    sys = tf(num,den);
+
