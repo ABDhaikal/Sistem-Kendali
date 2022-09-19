@@ -67,7 +67,7 @@ OUTPUT :
 
 ![alt text](/Derivative%20Effect%20on%20Control%20System/grph.jpg)
 
-... | ^^ step ^^ ||| ^^ step ^^ ||| ^^ step ^^ |||
+... |  step  |||  step  ||| step  || . |
 ... | Risetime | SettlingTime | Overshoot | Risetime | SettlingTime | Overshoot | Risetime | SettlingTime | Overshoot
 --- | --- | --- | --- |--- |--- |--- |--- |--- |--- 
 kd1	   | 0.4404	| 72.351  |	640.571	 | 10.096 |	74.747	|   Inf |  NaN	 |  NaN	| NaN 
