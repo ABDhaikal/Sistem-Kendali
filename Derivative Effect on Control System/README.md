@@ -70,7 +70,7 @@ OUTPUT :
 
 	step		|	impulse		|	ramp		|
 Risetime	| SettlingTime | Overshoot	| Risetime	|SettlingTime 	| Overshoot |	Risetime |	SettlingTime | 	Overshoot|
---- |:---=--:|:---=---:|:----=---:|:---=--:|:---=---:|:--=--:|:---=--:|:-=--:| ---
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
 kd1	   | 0.4404	| 72.351  |	640.571	 | 10.096 |	74.747	|   Inf |  NaN	 |  NaN	| NaN |
 kd3	   | 0.1777	| 54.078  |	773.628	 | 0.6153 |	33.919	|   Inf	|  NaN	 |  NaN	| NaN |
 kd5	   | 0.1083	| 96.269  |	856.019	 | 0.4056 | 23.497	|   Inf	|  NaN	 |  NaN	| NaN |
