@@ -57,3 +57,21 @@ fprintf('ramp\n')
 Risetime = stepinfo(subj/s).RiseTime
 SettlingTime = stepinfo(subj/s).SettlingTime
 Overshoot = stepinfo(subj/s).Overshoot
+
+
+
+%% searching SSE
+[y,u] = step(complete);
+SSE = abs(1-y(end))
+
+[y1,u1] = step(complete1);
+SSE1 = abs(1-y1(end))
+
+[y2,u2] = step(complete2);
+SSE2 = abs(1-y2(end))
+
+[y3,u3] = step(complete3);
+SSE3 = abs(1-y3(end))
+
+[y4,u4] = step(complete4);
+SSE4 = abs(1-y4(end))
