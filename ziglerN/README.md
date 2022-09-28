@@ -48,4 +48,4 @@ setelah ditentuakn nilai kp ti td maka dapat diperoleh nilai kp ki kd bedasarkan
     kd = kp*Td
 
 
-![alt text](/Derivative%20Effect%20on%20Control%20System/outputzn.jpg)
+![alt text](outputzn.jpg)
