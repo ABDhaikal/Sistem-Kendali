@@ -17,6 +17,8 @@ langkah selanjutnya ditentukan delay time dan time constant
 
 lalu setelah ditentukan time delay dan time constan langkah selanjutnya tinggal menentukan nilai kp ti dan td berdasarkan tabel zigler nichols 1
 
+![alt text](tabelzn.jpg)
+
     %% ZN1 
     if(use_p)
         if(use_i)
